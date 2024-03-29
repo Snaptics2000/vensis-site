@@ -24,7 +24,7 @@ const HomeMenu = () => {
           <Image
             src={group}
             alt="group"
-            className=" md:relative top-[3px] bottom-[100px] border-t-hidden rounded-2xl pt-2  left-[415px] w-[800px]"
+            className=" md:relative top-[3px] bottom-[100px] border-t-hidden rounded-2xl pt-2  left-[415px] md:w-[800px] lg:[1600px]"
           />
         </div>
         <div className="mt-24 md:relative bottom-[900px] font-cabinet-grotesk md:ml-12 md:mr-12">
