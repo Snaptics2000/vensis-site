@@ -10,7 +10,8 @@ import Instagram from '../../Images/instaicon.png'
 const Footer = () => {
   return (
     <>
-      <div>
+      <div className="">
+        <div>
         <div className="bg-[#F8F8F8] flex flex-wrap justify-center items-center md:h-[312px] md:w-[1260px]">
           <div>
             <h1 className="font-cabinet-grotesk text-center font-bold text-[50px]">
@@ -33,9 +34,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      
       <div className="bg-[#1B0F3C] md:h-[900px] md:w-[1260px] mt-12">
         <div className="bg-white rounded-br-[100px] rounded-bl-[100px] flex justify-center items-center h-[300px]">
-            <div className="bg-[#6B4ACB] md:rounded-[232px] md:w-[1000px] md:h-[464px] mt-48 pt-12 flex justify-center text-center ">
+            <div className="bg-[#6B4ACB] md:rounded-[232px] mx-auto md:w-[1000px] md:h-[464px] mt-48 pt-12 flex justify-center text-center ">
                 <div>
                 <h1 className="text-[50px] font-bold text-white font-cabinet-grotesk">Get in Touch</h1>  
                 <h1 className="text-[70px]  text-white font-cabinet-grotesk font-bold">Have Questions?</h1>
@@ -84,6 +86,7 @@ const Footer = () => {
         <div className="bg-[#6B4ACB] mt-2 ml-12 mr-12">
             <h1 className="text-center text-white font-cabinet-grotesk">@Copyright | All Right Reserved Vensis Consulting INC </h1>
         </div>
+      </div>
       </div>
     </>
   );

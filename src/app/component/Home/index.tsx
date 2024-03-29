@@ -19,15 +19,16 @@ import Footer from "../Footer";
 const HomeMenu = () => {
   return (
     <>
-      <div className="ml-12  mr-12 h-[900px]">
+      <div className=" flex justify-center  mr-[300px] h-[900px]">
+      <div>
         <div className="hidden md:inline rounded-full ">
           <Image
             src={group}
             alt="group"
-            className=" md:relative top-[3px] bottom-[100px] border-t-hidden rounded-2xl pt-2  left-[415px] w-[800px]"
+            className=" md:relative top-[3px] bottom-[100px]  border-t-hidden rounded-2xl pt-2   left-[415px] w-[800px] "
           />
         </div>
-        <div className="mt-24 md:relative bottom-[900px] font-cabinet-grotesk md:ml-12 md:mr-12">
+        <div className="mt-24 md:relative bottom-[900px] font-cabinet-grotesk  md:mr-12">
           <div className="">
             <div className="justify-between  md:w-[673px] h-[244px]">
               <h1 className="text-7xl font-cabinet-grotesk md:leading-[84px] font-extrabold">
@@ -84,8 +85,9 @@ const HomeMenu = () => {
           alt="frame"
           className="relative bottom-[2100px] left-[1100px]"
         />
+        </div>
       </div>
-      <div className="h-[200px]">
+      <div className="h-[200px] flex justify-center">
         <div className="md:ml-28 md:relative bottom-[300px]  bg-gradient-to-r from-[#6C4ACF] to-[#3F238E] md:flex justify-center  md:rounded-[48px] md:w-[1100px] md:h-[300px]">
           <div className="text-center">
             <h1 className="text-white text-[50px] font-bold font-cabinet-grotesk  mt-8 md:w-[900px]">
@@ -172,12 +174,9 @@ const HomeMenu = () => {
  
         </div>
       </div>
-
-      <div>
+      <div className="flex justify-center">
       <Footer/>
-
       </div>
-
     </>
   );
 };
