@@ -168,9 +168,9 @@ const HomeMenu = () => {
               <Image src={mask3} alt="mask" />
             </div>
           </div>
-          <Image className="hidden md:block relative left-[350px] bottom-[350px] w-[400px] " src={border1} alt="border"/>
-          <Image className="hidden md:block relative left-[10px]  bottom-[420px] w-[400px] " src={border2} alt="border"/>
-          <Image className="hidden md:block relative left-[680px]  bottom-[650px] w-[400px] " src={border2} alt="border"/>
+          <Image className="hidden md:block relative left-[400px] bottom-[350px] w-[400px] " src={border1} alt="border"/>
+          <Image className="hidden md:block relative left-[70px]  bottom-[420px] w-[400px] " src={border2} alt="border"/>
+          <Image className="hidden md:block relative left-[750px]  bottom-[650px] w-[400px] " src={border2} alt="border"/>
  
         </div>
       </div>
